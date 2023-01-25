@@ -39,8 +39,18 @@ i {
     text-decoration: none;
 }
 
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+.item {
+    width: calc(100% / 3);
+    padding: 20px;
+}
+
 .item-img {
-    width: 250px;
     position: relative;
 }
 .item-img img {
@@ -71,4 +81,12 @@ i {
     background-color: green;
     color: white;
     padding: 5px;
+}
+
+.price {
+    color: red;
+}
+
+.old-price {
+    text-decoration: line-through;
 }
