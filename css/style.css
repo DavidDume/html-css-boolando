@@ -123,3 +123,24 @@ footer {
 .social {
     margin-top: 10px;
 }
+
+/* HOVER EFFECTS */
+
+.img2 {
+    display: none;
+}
+
+.item-img:hover .img1 {
+    display: none;
+}
+.item-img:hover .img2 {
+    display: block;
+    cursor: pointer;
+}
+
+.item-img i:hover {
+    color: red;
+}
+a:hover {
+    text-decoration: underline;
+}
