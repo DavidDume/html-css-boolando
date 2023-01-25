@@ -90,3 +90,36 @@ i {
 .old-price {
     text-decoration: line-through;
 }
+
+footer {
+    background-color: #0d1b2a;
+}
+
+.fcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 30px 0;
+}
+
+.ftext ul {
+    list-style-type: none;
+    display: flex;
+}
+.ftext a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.ftext ul li {
+    padding-right: 10px;
+}
+
+.fsocial {
+    text-align: center;
+}
+.social {
+    margin-top: 10px;
+}
